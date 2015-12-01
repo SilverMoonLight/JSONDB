@@ -15,6 +15,9 @@
 		FCBCA91D1C0C8A93004E2087 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FCBCA91B1C0C8A93004E2087 /* LaunchScreen.storyboard */; };
 		FCBCA9281C0C8A93004E2087 /* JSONDBTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA9271C0C8A93004E2087 /* JSONDBTests.m */; };
 		FCBCA9331C0C8A93004E2087 /* JSONDBUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA9321C0C8A93004E2087 /* JSONDBUITests.m */; };
+		FCBCA9421C0C8DFA004E2087 /* City.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA9411C0C8DFA004E2087 /* City.m */; };
+		FCBCA9491C0CA6C2004E2087 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FCBCA9471C0CA6C2004E2087 /* DetailViewController.m */; };
+		FCBCA94A1C0CA6C2004E2087 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCBCA9481C0CA6C2004E2087 /* DetailViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +54,11 @@
 		FCBCA92E1C0C8A93004E2087 /* JSONDBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSONDBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCBCA9321C0C8A93004E2087 /* JSONDBUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSONDBUITests.m; sourceTree = "<group>"; };
 		FCBCA9341C0C8A93004E2087 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCBCA9401C0C8DFA004E2087 /* City.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = City.h; sourceTree = "<group>"; };
+		FCBCA9411C0C8DFA004E2087 /* City.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = City.m; sourceTree = "<group>"; };
+		FCBCA9461C0CA6C2004E2087 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		FCBCA9471C0CA6C2004E2087 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		FCBCA9481C0CA6C2004E2087 /* DetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +117,11 @@
 				FCBCA9191C0C8A93004E2087 /* Assets.xcassets */,
 				FCBCA91B1C0C8A93004E2087 /* LaunchScreen.storyboard */,
 				FCBCA91E1C0C8A93004E2087 /* Info.plist */,
+				FCBCA9401C0C8DFA004E2087 /* City.h */,
+				FCBCA9411C0C8DFA004E2087 /* City.m */,
+				FCBCA9461C0CA6C2004E2087 /* DetailViewController.h */,
+				FCBCA9471C0CA6C2004E2087 /* DetailViewController.m */,
+				FCBCA9481C0CA6C2004E2087 /* DetailViewController.xib */,
 				FCBCA90D1C0C8A93004E2087 /* Supporting Files */,
 			);
 			path = JSONDB;
@@ -246,6 +259,7 @@
 				FCBCA91D1C0C8A93004E2087 /* LaunchScreen.storyboard in Resources */,
 				FCBCA91A1C0C8A93004E2087 /* Assets.xcassets in Resources */,
 				FCBCA9181C0C8A93004E2087 /* Main.storyboard in Resources */,
+				FCBCA94A1C0CA6C2004E2087 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,8 +284,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FCBCA9491C0CA6C2004E2087 /* DetailViewController.m in Sources */,
 				FCBCA9151C0C8A93004E2087 /* ViewController.m in Sources */,
 				FCBCA9121C0C8A93004E2087 /* AppDelegate.m in Sources */,
+				FCBCA9421C0C8DFA004E2087 /* City.m in Sources */,
 				FCBCA90F1C0C8A93004E2087 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +512,7 @@
 				FCBCA9391C0C8A93004E2087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCBCA93A1C0C8A93004E2087 /* Build configuration list for PBXNativeTarget "JSONDBTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +521,7 @@
 				FCBCA93C1C0C8A93004E2087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FCBCA93D1C0C8A93004E2087 /* Build configuration list for PBXNativeTarget "JSONDBUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +530,7 @@
 				FCBCA93F1C0C8A93004E2087 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
